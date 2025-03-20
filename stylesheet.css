@@ -1,0 +1,111 @@
+/*Css for the body of my html*/
+body {
+  background-color: #f8f3e9;
+  color: #4a4a4a;
+  font-family: Arial, sans-serif;
+}
+
+/*css for Navbar*/
+Ul {
+  background-color: #ffdd99;
+  color: #4a4a4a;
+  margin: 1px;
+  padding: 14px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 45px;
+  color: #4a4a4a;
+  font-size: 20px;
+  font-weight: bold;
+  color: #5a3d2b;
+}
+
+/*Css to make my navebar hoverable*/
+nav ul li :hover {
+  color: grey;
+}
+
+/*Css for the title of my page*/
+.title {
+  color: #8b5e34;
+  text-align: center;
+}
+
+/*Css for the image in my navbar*/
+ul li img {
+  background-color: #ffdd99;
+  vertical-align: middle;
+}
+
+/*Css for my flexbox container and how my page is formated*/
+#Flexbox-and-how-it-will-look {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/*Css for my flexbox sidebar*/
+.sidebars {
+  flex: 1;
+  background-color: #fce8c8;
+  border: 2px solid #e6c7a7;
+  padding: 20px;
+  color: #5a3d2b;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/*Css for the middle/main area of my page*/
+#main-area {
+  flex: 3;
+  background-color: #fffaf0;
+  border: 2px solid #e6c7a7;
+  padding: 20px;
+  color: #5a3d2b;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+}
+
+/*css for my footer*/
+#footer {
+  background-color: #ffdd99;
+  margin: 5px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*Css for the links in my left sidebar*/
+.linkstomakeitlookgood a {
+  color: #5a3d2b;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.linkstomakeitlookgood :hover {
+  color: grey;
+}
+
+/*Css to make numbered treaties bolder than without css*/
+span {
+  font-weight: 900;
+}
+
+/* Css for the images in my main area to make them side by side*/
+.image-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
