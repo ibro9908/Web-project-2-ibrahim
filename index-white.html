@@ -1,16 +1,10 @@
- <!-- 
-
-Name:  Ibrahim Abdulsalaam
-
-Course:  Web dev 10 s
-
-Teacher:  Ms. Hoitink
-
-School:  Pembina trails colligiate
-
-Date Last Modified: 20th Thu march 2025
+<!--  
+Name:  Ibrahim Abdulsalaam 
+Course:  Web dev 10 s 
+Teacher:  Ms. Hoitink 
+School:  Pembina trails colligiate 
+Date Last Modified: 20th Thu march 2025 
 -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,6 +12,7 @@ Date Last Modified: 20th Thu march 2025
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <!--CSS-->
     <style>
       /*Css for the body of my html*/
@@ -25,6 +20,7 @@ Date Last Modified: 20th Thu march 2025
         background-color: #f8f3e9;
         color: #4a4a4a;
         font-family: Arial, sans-serif;
+        margin-top: 150px;
       }
 
       /*css for Navbar*/
@@ -131,12 +127,18 @@ Date Last Modified: 20th Thu march 2025
         gap: 20px;
         justify-content: center;
       }
+
+      nav {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+      }
     </style>
   </head>
 
   <body>
     <header>
-      <link rel="stylesheet" href="stylesheet.css" />
       <nav>
         <figure>
           <ul>
@@ -147,8 +149,7 @@ Date Last Modified: 20th Thu march 2025
                   src="images/download newest.png"
                   width="50"
                   height="50"
-                  alt="Logo of treaty at the top left of school, looks like, creamy pirate map"
-                />
+                  alt="Logo of treaty at the top left of school, looks like, creamy pirate map" />
               </figure>
             </li>
 
@@ -156,109 +157,210 @@ Date Last Modified: 20th Thu march 2025
             <li><a tabindex="1" href="index.html">Home</a></li>
             <li><a tabindex="2" href="index copy.html">Coming soon</a></li>
             <li><a tabindex="3" href="index.html">Coming soon</a></li>
+            <li>
+              <a href="index-black.html"
+                ><button style="background-color: #fadda2" type="button">
+                  🌑 Switch to Dark Mode
+                </button></a
+              >
+            </li>
           </ul>
         </figure>
       </nav>
+    </header>
 
-      <main>
-        </header>
-        <!--Title-->
-        <h1 class="title" tabindex="4">TREATY 1</h1>
-    
-    <!--html of flexbox container-->
-    <div id="Flexbox-and-how-it-will-look">
+    <main>
+      <!--Title-->
+      <h1 class="title" tabindex="4">TREATY 1</h1>
 
-      <!--Html of my left sidebar-->
-      <div class="sidebars">
-        <section>
-          <!--First title of left sidebar-->
-          <h2 tabindex="5">What Is A Treaty?</h2>
+      <!--html of flexbox container-->
+      <div id="Flexbox-and-how-it-will-look">
+        <!--Html of my left sidebar-->
+        <div class="sidebars">
+          <section>
+            <!--First title of left sidebar-->
+            <h2 tabindex="5">What Is A Treaty?</h2>
 
-          <p>
-            A treaty is a binding formal agreement, contract or negotiation
-            between two or more parties or subjects of international law. Often
-            used to facilitate a peaceful coexistence, they define ongoing rights
-            and obligations on all sides to encourage peaceful relations and to
-            specify promises, obligations, and benefits.
-            <br /><br />
-            <a tabindex="6" href="https://www.britannica.com/topic/treaty">Reasearch/Sources</a>
+            <p>
+              A treaty is a binding formal agreement, contract or negotiation
+              between two or more parties or subjects of international law.
+              Often used to facilitate a peaceful coexistence, they define
+              ongoing rights and obligations on all sides to encourage peaceful
+              relations and to specify promises, obligations, and benefits.
+              <br /><br />
+              <a tabindex="6" href="https://www.britannica.com/topic/treaty"
+                >Reasearch/Sources</a
+              >
+              <br />
+              <a
+                tabindex="7"
+                href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028574/1529354437231"
+                >Reasearch/Sources</a
+              >
+            </p>
+
             <br />
-            <a tabindex="7" href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028574/1529354437231">Reasearch/Sources</a>
-          </p>
 
-          <br />
+            <!--Second title of left sidebar-->
+            <h2 tabindex="8">Treaties In Canada?</h2>
 
-          <!--Second title of left sidebar-->
-          <h2 tabindex="8">Treaties In Canada?</h2>
+            <p>Important treaties in canada include the</p>
 
-          <p>
-            Important treaties in canada include the
             <div class="linkstomakeitlookgood">
               <b>
-                <a target="_blank" tabindex="9" href="https://en.wikipedia.org/wiki/Royal_Proclamation_of_1763">Royal Proclamation a(1763)</a>|
-                <a tabindex="10" href="https://www.rcaanc-cirnac.gc.ca/eng/1360941656761/1544619778887">the Upper Canada Land Surrenders (1764-1862)</a>|
-                <a tabindex="11" href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028974/1564412549270">the Robinson Treaties (1850)</a>|
-                <a tabindex="12" href="https://www.rcaanc-cirnac.gc.ca/eng/1100100029000/1564415701529">the Williams Treaties (1923)</a>|
-                <a tabindex="13" href="https://en.wikipedia.org/wiki/Numbered_Treaties">
-                  <span>,
-                    and
-                    the Numbered Treaties (1871-1921)-a series of eleven agreements.
+                <a
+                  target="_blank"
+                  tabindex="9"
+                  href="https://en.wikipedia.org/wiki/Royal_Proclamation_of_1763"
+                  >Royal Proclamation a(1763)</a
+                >|
+                <a
+                  tabindex="10"
+                  href="https://www.rcaanc-cirnac.gc.ca/eng/1360941656761/1544619778887"
+                  >the Upper Canada Land Surrenders (1764-1862)</a
+                >|
+                <a
+                  tabindex="11"
+                  href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028974/1564412549270"
+                  >the Robinson Treaties (1850)</a
+                >|
+                <a
+                  tabindex="12"
+                  href="https://www.rcaanc-cirnac.gc.ca/eng/1100100029000/1564415701529"
+                  >the Williams Treaties (1923)</a
+                >|
+                <a
+                  tabindex="13"
+                  href="https://en.wikipedia.org/wiki/Numbered_Treaties">
+                  <span
+                    >, and the Numbered Treaties (1871-1921)-a series of eleven
+                    agreements.
                   </span>
                 </a>
               </b>
             </div>
-            which all aimed to establish peaceful relations, facilitate land settlement, and address First
-            Nations' land rights.
-            <br /> <br />
-            </b>
-            <a tabindex="14" href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028574/1529354437231">Reasearch/Sources</a>
-            <a tabindex="15" href="https://www.thecanadianencyclopedia.ca/en/article/comprehensive-land-claims-modern-treaties">Reasearch/Sources</a>
-          </p>
-        </section>
-      </div>
+            which all aimed to establish peaceful relations, facilitate land
+            settlement, and address First Nations' land rights.
+            <br /><br />
+            <a
+              tabindex="14"
+              href="https://www.rcaanc-cirnac.gc.ca/eng/1100100028574/1529354437231"
+              >Reasearch/Sources</a
+            >
+            <a
+              tabindex="15"
+              href="https://www.thecanadianencyclopedia.ca/en/article/comprehensive-land-claims-modern-treaties"
+              >Reasearch/Sources</a
+            >
+          </section>
+        </div>
 
-      <!--Html of main area-->
-      <div id="main-area">
-        <section>
-          <article>
-            <!--Title of main flexbox area-->
-            <h2 style="text-align: center;" tabindex="16">What is Treaty 1</h2>
+        <!--Html of main area-->
+        <div id="main-area">
+          <section>
+            <article>
+              <!--Title of main flexbox area-->
+              <h2 style="text-align: center" tabindex="16">What is Treaty 1</h2>
 
-            <!--info of title-->
-            <p>Treaty 1 or (stone fort treaty)-negotiated between Canadian based first nations, the Crown, the Anishinaabe and Swampy Cree is the first of the 11 numbered treaties ranging from 1871 and 1921.</p>
+              <!--info of title-->
+              <p>
+                Treaty 1 or (stone fort treaty)-negotiated between Canadian
+                based first nations, the Crown, the Anishinaabe and Swampy Cree
+                is the first of the 11 numbered treaties ranging from 1871 and
+                1921.
+              </p>
 
-            <!--Images related to project-->
-            <div class="image-container">
-              <figure><img src="images/download.jpg" tabindex="17" width="306" height="280" alt="Desriptive image of treaty 1 and 2 signing area" />
-                <figcaption>image courtesy of <a tabindex="18" href="https://canadiangeographic.ca/articles/treaties-1-and-2-reflecting-on-the-150th-anniversary/">Canadian Geographic</a></figcaption>
-              </figure>
-              <figure><img src="images/download (1).jpg" tabindex="19" alt="Desriptive image of treaty 1 through 5 signing area" width="306" height="280" />
-                <figcaption>image courtesy of <a tabindex="20" href="https://canadianhistoryworkshop.wordpress.com/treaties/treaty-one/">Canadian history workshop</a></figcaption>
-              </figure>
-            </div>
-            <br />
-            <div class="image-container">
-              <figure><img src="images/treaty-1.jpg" tabindex="21" alt="Example of a treaty, brownish torn, and ragedy kindof looking" width="306" height="280" />
-                <figcaption> image courtesy of <a tabindex="22" href="https://hyperallergic.com/595770/374-native-american-treaties-have-been-digitized-and-made-available-online/">Hyperallergic</a></figcaption>
-              </figure>
-              <figure><img src="images/Q6L3BUULDVJYOSUP6IEUIEBWCQ.avif" tabindex="23" alt="Desriptive image of treaty 1 through 11 signing area" width="306" height="280" />
-                <figcaption> image courtesy of <a tabindex="24" href="https://www.ctvnews.ca/winnipeg/article/the-numbered-treaties-in-canada-and-where-they-are-located/">CTV News</a></figcaption>
-              </figure>
-            </div>
-            <br />
-            <a tabindex="25" href="https://en.wikipedia.org/wiki/Treaty_1">Reasearch/Sources</a>
-            <br />
-          </article>
-        </section>
-      </div>
+              <!--Images related to project-->
+              <div class="image-container">
+                <figure>
+                  <img
+                    src="images/download.jpg"
+                    tabindex="17"
+                    width="306"
+                    height="280"
+                    alt="Desriptive image of treaty 1 and 2 signing area" />
+                  <figcaption>
+                    image courtesy of
+                    <a
+                      tabindex="18"
+                      href="https://canadiangeographic.ca/articles/treaties-1-and-2-reflecting-on-the-150th-anniversary/"
+                      >Canadian Geographic</a
+                    >
+                  </figcaption>
+                </figure>
 
-      <!--Html of right sidebar-->
-      <div class="sidebars">
-        <section>
-          <!--first title-->
-          <h3 tabindex="26">Fun Facts About Treaty 1</h3>
+                <figure>
+                  <img
+                    src="images/download (1).jpg"
+                    tabindex="19"
+                    alt="Desriptive image of treaty 1 through 5 signing area"
+                    width="306"
+                    height="280" />
+                  <figcaption>
+                    image courtesy of
+                    <a
+                      tabindex="20"
+                      href="https://canadianhistoryworkshop.wordpress.com/treaties/treaty-one/"
+                      >Canadian history workshop</a
+                    >
+                  </figcaption>
+                </figure>
+              </div>
 
-          <p>
+              <br />
+
+              <div class="image-container">
+                <figure>
+                  <img
+                    src="images/treaty-1.jpg"
+                    tabindex="21"
+                    alt="Example of a treaty, brownish torn, and ragedy kindof looking"
+                    width="306"
+                    height="280" />
+                  <figcaption>
+                    image courtesy of
+                    <a
+                      tabindex="22"
+                      href="https://hyperallergic.com/595770/374-native-american-treaties-have-been-digitized-and-made-available-online/"
+                      >Hyperallergic</a
+                    >
+                  </figcaption>
+                </figure>
+
+                <figure>
+                  <img
+                    src="images/Q6L3BUULDVJYOSUP6IEUIEBWCQ.avif"
+                    tabindex="23"
+                    alt="Desriptive image of treaty 1 through 11 signing area"
+                    width="306"
+                    height="280" />
+                  <figcaption>
+                    image courtesy of
+                    <a
+                      tabindex="24"
+                      href="https://www.ctvnews.ca/winnipeg/article/the-numbered-treaties-in-canada-and-where-they-are-located/"
+                      >CTV News</a
+                    >
+                  </figcaption>
+                </figure>
+              </div>
+
+              <br />
+              <a tabindex="25" href="https://en.wikipedia.org/wiki/Treaty_1"
+                >Reasearch/Sources</a
+              >
+              <br />
+            </article>
+          </section>
+        </div>
+
+        <!--Html of right sidebar-->
+        <div class="sidebars">
+          <section>
+            <!--first title-->
+            <h3 tabindex="26">Fun Facts About Treaty 1</h3>
+
+            <p></p>
             <ul>
               <li>Signed: August 3, 1871</li>
               <li>Location: Lower Fort Garry</li>
@@ -266,32 +368,62 @@ Date Last Modified: 20th Thu march 2025
               <li>Main Purpose: Land agreements & rights</li>
             </ul>
             <br />
-            <a tabindex="27" href="https://en.wikipedia.org/wiki/Treaty_1">Reasearch/Sources</a>
+            <a tabindex="27" href="https://en.wikipedia.org/wiki/Treaty_1"
+              >Reasearch/Sources</a
+            >
             <br />
 
             <!--Second title-->
             <h3 tabindex="28">Words from the Past</h3>
-
             <ul>
-              <li>"We will always be here, as long as the sun shines, the grass grows, and the river flows."</li>
+              <li>
+                "We will always be here, as long as the sun shines, the grass
+                grows, and the river flows."
+              </li>
             </ul>
 
             <!--third title-->
-            <h3 tabindex="29">Treaty 1 Area</h3>
-
+            <h3 tabindex="29">Treaty 1 signing Area</h3>
             <!--iframe of map of where treaty was signed-->
             <ul>
-              <li><iframe tabindex="30" src="https://www.google.com/maps/embed?pb=!4v1742445361779!6m8!1m7!1sv0ZK5fOLQRjjvEzcuoCRow!2m2!1d50.11197032102434!2d-96.93137674118763!3f314.79183526001947!4f-12.088062542485034!5f0.7820865974627469" width="260" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+              <li>
+                <iframe
+                  tabindex="30"
+                  src="https://www.google.com/maps/embed?pb=!4v1742445361779!6m8!1m7!1sv0ZK5fOLQRjjvEzcuoCRow!2m2!1d50.11197032102434!2d-96.93137674118763!3f314.79183526001947!4f-12.088062542485034!5f0.7820865974627469"
+                  width="260"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </li>
             </ul>
-          </p>
-        </section>
+            <p>
+              Map courtesy of Google Maps. View bigger map here
+              <a tabindex="24" href="https://maps.app.goo.gl/VbqqXNtjTd12ybC18"
+                ><br />here</a
+              >
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
     </main>
 
-    <b><footer id="footer"> &copy 2025 <br /><br />Ibrahim Abdulsalaam- Web-project 1
-      <!--figcaption for the logo because it looks better here-->
-      <figcaption> Logo image courtesy of <a tabindex="31                                                     " href="https://www.freepik.com/icon/peace-treaty_3457011">Freepik</a></figcaption>
-    </footer></b>
+    <b>
+      <footer id="footer">
+        &copy 2025 <br /><br />
+        Ibrahim Abdulsalaam- Web-project 1
+        <!--figcaption for the logo because it looks better here-->
+        <figcaption>
+          Logo image courtesy of
+          <a
+            tabindex="31"
+            href="https://www.freepik.com/icon/peace-treaty_3457011"
+            >Freepik</a
+          >
+        </figcaption>
+      </footer>
+    </b>
   </body>
 </html>
