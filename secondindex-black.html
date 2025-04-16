@@ -1,139 +1,202 @@
 <!--  
+
+ 
+
 Name:  Ibrahim Abdulsalaam 
+
+ 
+
 Course:  Web dev 10 s 
+
+ 
+
 Teacher:  Ms. Hoitink 
+
+ 
+
 School:  Pembina trails colligiate 
+
+ 
+
 Date Last Modified: 20th Thu march 2025 
+
 -->
+
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <link rel="stylesheet" href="stylesheet.css" />
+
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
 
     <!--CSS-->
+
     <style>
       /*Css for the body of my html*/
+
       body {
-        background-color: #f8f3e9;
-        color: #4a4a4a;
+        background-color: #330000;
+
+        color: #ffdddd;
+
         font-family: Arial, sans-serif;
-        margin-top: 150px;
       }
 
       /*css for Navbar*/
+
       Ul {
-        background-color: #ffdd99;
-        color: #4a4a4a;
+        background-color: #800000;
+
+        color: #ffdddd;
+
         margin: 1px;
+
         padding: 14px;
+
         text-align: center;
+
         border-radius: 10px;
       }
 
       ul li {
         text-decoration: none;
+
         list-style-type: none;
+
         display: inline-block;
       }
 
       ul li a {
         text-decoration: none;
+
         padding: 45px;
-        color: #4a4a4a;
+
         font-size: 20px;
+
         font-weight: bold;
-        color: #5a3d2b;
+
+        color: #fffefe;
       }
 
       /*Css to make my navebar hoverable*/
+
       nav ul li :hover {
         color: grey;
       }
 
       /*Css for the title of my page*/
+
       .title {
-        color: #8b5e34;
+        color: #e4887c;
+
         text-align: center;
-        font-size: 50px;
       }
 
       /*Css for the image in my navbar*/
+
       ul li img {
         background-color: #ffdd99;
+
         vertical-align: middle;
       }
 
       /*Css for my flexbox container and how my page is formated*/
+
       #Flexbox-and-how-it-will-look {
         display: flex;
+
         width: 100%;
+
         gap: 20px;
+
         padding: 20px;
+
         box-sizing: border-box;
       }
 
       /*Css for my flexbox sidebar*/
+
       .sidebars {
         flex: 1;
-        background-color: #fce8c8;
-        border: 2px solid #e6c7a7;
+
+        background-color: #660000;
+
+        border: 2px solid #a64141;
+
         padding: 20px;
-        color: #5a3d2b;
+
+        color: #ffbbbb;
+
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+
         border-radius: 10px;
       }
 
       /*Css for the middle/main area of my page*/
+
       #main-area {
         flex: 3;
-        background-color: #fffaf0;
-        border: 2px solid #e6c7a7;
+
+        background-color: #4b0000;
+
+        border: 2px solid #5a1a1a;
+
         padding: 20px;
-        color: #5a3d2b;
+
+        color: #ffcccc;
+
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+
         border-radius: 9px;
       }
 
       /*css for my footer*/
+
       #footer {
-        background-color: #ffdd99;
+        background-color: #800000;
+
         margin: 5px;
+
         padding: 30px;
+
         border-radius: 10px;
+
         text-align: center;
       }
 
       /*Css for the links in my left sidebar*/
+
       .linkstomakeitlookgood a {
-        color: #5a3d2b;
+        color: #f67e7e;
+
         text-decoration: none;
+
         list-style-type: none;
       }
 
       .linkstomakeitlookgood :hover {
-        color: grey;
+        color: #ffcccc;
       }
 
       /*Css to make numbered treaties bolder than without css*/
+
       span {
         font-weight: 900;
       }
 
       /* Css for the images in my main area to make them side by side*/
+
       .image-container {
         display: flex;
-        gap: 20px;
-        justify-content: center;
-      }
 
-      nav {
-        position: fixed;
-        width: 100%;
-        z-index: 100;
-        top: 0;
+        gap: 20px;
+
+        justify-content: center;
       }
     </style>
   </head>
@@ -155,10 +218,8 @@ Date Last Modified: 20th Thu march 2025
             </li>
 
             <!--Html of navbar-->
-            <li><a tabindex="1" href="index-white.html">Home</a></li>
-            <li>
-              <a tabindex="2" href="secondindex-white.html">Coming soon</a>
-            </li>
+            <li><a tabindex="1" href="secondindex-black.html">Home</a></li>
+            <li><a tabindex="2" href="index-black.html">Coming soon</a></li>
             <li><a tabindex="3" href="index.html">Coming soon</a></li>
             <li>
               <a href="index-black.html"
