@@ -43,12 +43,12 @@ ul li a {
 
 /*styling/CSS so i can hover over my navbar (Dark Mode)*/
 nav ul li :hover {
-  color: grey;
+  color: #4a4a4a;
 }
 
 /*styling/CSS for the title of my pages  (Dark Mode)*/
 h1 {
-  color: #e4887c;
+  color: #fffefe;
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
@@ -76,7 +76,7 @@ ul li img {
 .sidebars {
   flex: 1;
   background-color: #660000;
-  border: 2px solid #a64141;
+  border: 2px solid #800000;
   padding: 20px;
   color: #ffbbbb;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -87,11 +87,10 @@ ul li img {
 /*styling/CSS for my flexbox and how my page is formated middle/main area (Dark Mode)*/
 #main-area {
   flex: 3;
-  background-color: #4b0000;
-  border: 2px solid #5a1a1a;
+  background-color: #660000;
+  border: 2px solid #800000;
   padding: 20px;
   color: #ffcccc;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 9px;
   font-size: 19px;
 }
@@ -118,6 +117,7 @@ h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-size: 38px;
+  color: #fffefe;
 }
 
 /*styling/CSS for the base size of my font sizes */

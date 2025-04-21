@@ -48,7 +48,7 @@ nav ul li :hover {
 
 /*styling/CSS for the title of my pages  (Light Mode)*/
 h1 {
-  color: #8b5e34;
+  color: #5a3d2b;
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
@@ -76,7 +76,7 @@ ul li img {
 .sidebars {
   flex: 1;
   background-color: #fce8c8;
-  border: 2px solid #e6c7a7;
+  border: 2px solid #ffdd99;
   padding: 20px;
   color: #5a3d2b;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -87,11 +87,10 @@ ul li img {
 /*styling/CSS for my flexbox and how my page is formated middle/main area (Light Mode)*/
 #main-area {
   flex: 3;
-  background-color: #fffaf0;
-  border: 2px solid #e6c7a7;
+  background-color: #fce8c8;
+  border: 2px solid #ffdd99;
   padding: 20px;
   color: #5a3d2b;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 9px;
   font-size: 19px;
 }

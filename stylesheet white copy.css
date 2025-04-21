@@ -1,0 +1,24 @@
+/*i chose a monochromatic color scheme*/
+
+/*External Css for light mode*/
+
+/*styling/CSS for the body of my html(Light Mode)*/
+body {
+  background-color: #f8f3e9;
+  color: #4a4a4a;
+}
+
+/*styling/css for all my unordered lists including navbar and funfacts(Light Mode) */
+Ul {
+  background-color: #ffdd99;
+}
+
+/*styling/CSS including things for hiearchy and things that would affect how the words in my navbar would look  (Light Mode)*/
+ul li a {
+  color: #5a3d2b;
+}
+
+/*styling/CSS for my flexbox sidebar and how my page is formated (Light Mode)*/
+.sidebars {
+  background-color: #fce8c8;
+}
