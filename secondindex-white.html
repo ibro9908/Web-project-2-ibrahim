@@ -8,134 +8,10 @@ Date Last Modified: 20th Thu march 2025
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet white.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <!--CSS-->
-    <style>
-      /*Css for the body of my html*/
-      body {
-        background-color: #f8f3e9;
-        color: #4a4a4a;
-        font-family: Arial, sans-serif;
-        margin-top: 150px;
-      }
-
-      /*css for Navbar*/
-      Ul {
-        background-color: #ffdd99;
-        color: #4a4a4a;
-        margin: 1px;
-        padding: 14px;
-        text-align: center;
-        border-radius: 10px;
-      }
-
-      ul li {
-        text-decoration: none;
-        list-style-type: none;
-        display: inline-block;
-      }
-
-      ul li a {
-        text-decoration: none;
-        padding: 45px;
-        color: #4a4a4a;
-        font-size: 20px;
-        font-weight: bold;
-        color: #5a3d2b;
-      }
-
-      /*Css to make my navebar hoverable*/
-      nav ul li :hover {
-        color: grey;
-      }
-
-      /*Css for the title of my page*/
-      .title {
-        color: #8b5e34;
-        text-align: center;
-        font-size: 50px;
-      }
-
-      /*Css for the image in my navbar*/
-      ul li img {
-        background-color: #ffdd99;
-        vertical-align: middle;
-      }
-
-      /*Css for my flexbox container and how my page is formated*/
-      #Flexbox-and-how-it-will-look {
-        display: flex;
-        width: 100%;
-        gap: 20px;
-        padding: 20px;
-        box-sizing: border-box;
-      }
-
-      /*Css for my flexbox sidebar*/
-      .sidebars {
-        flex: 1;
-        background-color: #fce8c8;
-        border: 2px solid #e6c7a7;
-        padding: 20px;
-        color: #5a3d2b;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-      }
-
-      /*Css for the middle/main area of my page*/
-      #main-area {
-        flex: 3;
-        background-color: #fffaf0;
-        border: 2px solid #e6c7a7;
-        padding: 20px;
-        color: #5a3d2b;
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        border-radius: 9px;
-      }
-
-      /*css for my footer*/
-      #footer {
-        background-color: #ffdd99;
-        margin: 5px;
-        padding: 30px;
-        border-radius: 10px;
-        text-align: center;
-      }
-
-      /*Css for the links in my left sidebar*/
-      .linkstomakeitlookgood a {
-        color: #5a3d2b;
-        text-decoration: none;
-        list-style-type: none;
-      }
-
-      .linkstomakeitlookgood :hover {
-        color: grey;
-      }
-
-      /*Css to make numbered treaties bolder than without css*/
-      span {
-        font-weight: 900;
-      }
-
-      /* Css for the images in my main area to make them side by side*/
-      .image-container {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-      }
-
-      nav {
-        position: fixed;
-        width: 100%;
-        z-index: 100;
-        top: 0;
-      }
-    </style>
   </head>
 
   <body>
@@ -155,12 +31,13 @@ Date Last Modified: 20th Thu march 2025
             </li>
 
             <!--Html of navbar-->
-            <li><a tabindex="1" href="secondindex-white.html">Home</a></li>
-            <li><a tabindex="2" href="index-white.html">Home</a></li>
-            <li><a tabindex="3" href="index.html">Coming soon</a></li>
             <li>
-              <a href="index-black.html"
-                ><button style="background-color: #fadda2" type="button">
+              <a tabindex="1" href="secondindex-white.html">Coming Soon</a>
+            </li>
+            <li><a tabindex="2" href="index-white.html">Home</a></li>
+            <li>
+              <a href="secondindex-black.html"
+                ><button style="color: #000000; background-color: #fadda2">
                   🌑 Switch to Dark Mode
                 </button></a
               >
@@ -172,7 +49,7 @@ Date Last Modified: 20th Thu march 2025
 
     <main>
       <!--Title-->
-      <h1 class="title" tabindex="4">TREATY 1</h1>
+      <h1 tabindex="4">TREATY 1</h1>
 
       <!--html of flexbox container-->
       <div id="Flexbox-and-how-it-will-look">
@@ -182,6 +59,7 @@ Date Last Modified: 20th Thu march 2025
             <!--First title of left sidebar-->
             <h2 style="text-align: center" tabindex="16">About the treaty?</h2>
 
+            <!--More Background info -->
             <p>
               Although the treaty had occured to to be essentially about peace
               and friendship, after the 8 days of treaty making it ended with
@@ -207,6 +85,7 @@ Date Last Modified: 20th Thu march 2025
               <br />
             </p>
 
+            <!--second title of left sidebar- background info on what urban indian reserve and indian reserve are-->
             <h2>Urban Indian reserve vs Indian reserve</h2>
 
             <ul>
@@ -261,16 +140,19 @@ Date Last Modified: 20th Thu march 2025
           <section>
             <article>
               <h2 style="text-align: center" tabindex="16">
+                <!--First title of Main area info on outside promises-->
                 Outside Promises?
               </h2>
 
               <p>
                 Outside promises refer to oral promisses made during the
-                creation of treaty one, that Indigenous people thought would be
-                included in what they were getting. At first the Canadian
-                government didnt recognize these promises as something they had
-                to do but this was later done in 1875 4 years after the creation
-                of treaty 1. Some outside promisses include
+                creation of treaty one but not actually written down. Indigenous
+                people thought would be included in what they were getting but
+                at first the Canadian government didnt recognize these promises
+                as something they had to do but this was later done in 1875 4
+                years after the creation of treaty 1. Some outside promisses
+                included Additional Farming Equipment, a suit of clothing every
+                three years for each chief and flags and medals also for chiefs.
                 <br />
                 <br />
                 <a
@@ -283,6 +165,7 @@ Date Last Modified: 20th Thu march 2025
                 <br />
               </p>
 
+              <!--Second title of Main area info on differences from other treaties in canada-->
               <h2 style="text-align: center" tabindex="16">
                 Differences from other treaties in Canada?
               </h2>
@@ -329,21 +212,20 @@ Date Last Modified: 20th Thu march 2025
                 <br />
               </p>
               <br />
+              <!--Third title of Main area- info on treaty 1's implimentation today-->
               <h2>Treaty 1's implimentation today</h2>
               <p>
                 Today, Treaty 1 is being put into action by helping First
                 Nations grow their communities and businesses, get back land,
                 and make their own decisions. This includes creating urban
                 reserves, starting new businesses, and working with the
-                government. Like, 🏙️ Kapyong Barracks / Naawi-Oodena reserve.
+                government. Like, Kapyong Barracks / Naawi-Oodena reserve.
                 Formerly a military base in Winnipeg, this land was returned
-                after a long legal battle.Plans include: Housing Retail and
+                after a long legal battle. Plans include: Housing Retail and
                 office space Cultural and recreational centres Education and
-                training facilities This development represents both economic
-                progress and the reoccupation of traditional land.These actions
-                show that Treaty 1 is still important today. It wasn’t just an
-                agreement from the past—it was meant to create an ongoing
-                relationship.
+                training facilities. These actions show that Treaty 1 is still
+                important today. It wasn’t just an agreement from the past it
+                was meant to create an ongoing relationship.
                 <br />
                 <br />
                 <a
@@ -354,48 +236,39 @@ Date Last Modified: 20th Thu march 2025
                 >
               </p>
             </article>
+            <!--youtube video to learn more about treaty 1-->
+            <h2 tabindex="29">Learn more about treaty 1</h2>
+
+            <ul>
+              <li>
+                <iframe
+                  tabindex=""
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/8uB83G7xZgU?si=CbKeqySNn0dt4UbQ"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+              </li>
+            </ul>
+            <p>
+              view source
+              <a
+                tabindex="24"
+                target="_blank"
+                href="https://www.youtube.com/watch?v=8uB83G7xZgU"
+                >here</a
+              >
+            </p>
           </section>
         </div>
 
         <!--Html of right sidebar-->
         <div class="sidebars">
           <section>
-            <!--first title-->
-            <h2 tabindex="26">Fun Facts About Treaty 1</h2>
-
-            <p></p>
-            <ul>
-              <b>
-                <li>Signed: August 3, 1871</li>
-                <li>Location: Lower Fort Garry</li>
-                <li>First Nations: Anishinaabe, Swampy Cree</li>
-                <li>Main Purpose: Land agreements & rights</li>
-              </b>
-            </ul>
-            <br />
-            <a
-              tabindex="27"
-              target="_blank"
-              href="https://en.wikipedia.org/wiki/Treaty_1"
-              >Reasearch/Sources</a
-            >
-            <br />
-            <br />
-
-            <!--Second title-->
-            <h2 tabindex="28">Words from the Past</h2>
-            <ul>
-              <li>
-                <b>
-                  "We will always be here, as long as the sun shines, the grass
-                  grows, and the river flows."
-                </b>
-              </li>
-            </ul>
-            <br />
-            <br />
-
-            <!--third title-->
+            <!--first title on right sidebar-->
             <h2 tabindex="29">Treaty 1 signing Area</h2>
             <!--iframe of map of where treaty was signed-->
             <ul>
@@ -421,12 +294,57 @@ Date Last Modified: 20th Thu march 2025
                 >here</a
               >
             </p>
+
+            <!--Second title on right sidebar- rating the website-->
+            <h2>Rating</h2>
+            <form action="" method="get">
+              <legend>Pls rate my website?</legend>
+              <div role="radiogroup" aria-labelledby="rating-question"></div>
+
+              <input
+                required
+                type="radio"
+                id="excellent"
+                name="rating"
+                value="excellent" />
+              <label for="excellent"> Excellent</label><br />
+
+              <input
+                required
+                type="radio"
+                id="good"
+                name="rating"
+                value="good" />
+              <label for="good"> Good</label><br />
+
+              <input
+                required
+                type="radio"
+                id="average"
+                name="rating"
+                value="average" />
+              <label for="average"> Average</label><br />
+
+              <input
+                required
+                type="radio"
+                id="poor"
+                name="rating"
+                value="poor" />
+              <label for="poor"> Poor</label><br />
+
+              <input required type="radio" id="bad" name="rating" value="bad" />
+              <label for="bad"> Bad</label><br /><br />
+
+              <button type="submit">Submit</button>
+            </form>
           </section>
         </div>
       </div>
     </main>
 
     <b>
+      <!--Footer-->
       <footer id="footer">
         &copy 2025 <br /><br />
         Ibrahim Abdulsalaam- Web-project 1

@@ -1,201 +1,41 @@
 <!--  
-
- 
-
 Name:  Ibrahim Abdulsalaam 
-
- 
-
 Course:  Web dev 10 s 
-
- 
-
 Teacher:  Ms. Hoitink 
-
- 
-
 School:  Pembina trails colligiate 
-
- 
-
 Date Last Modified: 20th Thu march 2025 
-
 -->
-
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="stylesheet.css" />
-
+    <link rel="stylesheet" href="stylesheet black.css" />
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Document</title>
 
-    <!--CSS-->
-
+    <!--Internal CSS-->
     <style>
-      /*Css for the body of my html*/
-
-      body {
-        background-color: #330000;
-
-        color: #ffdddd;
-
-        font-family: Arial, sans-serif;
-      }
-
-      /*css for Navbar*/
-
-      Ul {
-        background-color: #800000;
-
-        color: #ffdddd;
-
-        margin: 1px;
-
-        padding: 14px;
-
-        text-align: center;
-
-        border-radius: 10px;
-      }
-
-      ul li {
-        text-decoration: none;
-
-        list-style-type: none;
-
-        display: inline-block;
-      }
-
-      ul li a {
-        text-decoration: none;
-
-        padding: 45px;
-
-        font-size: 20px;
-
-        font-weight: bold;
-
-        color: #fffefe;
-      }
-
-      /*Css to make my navebar hoverable*/
-
-      nav ul li :hover {
-        color: grey;
-      }
-
-      /*Css for the title of my page*/
-
-      .title {
-        color: #e4887c;
-
-        text-align: center;
-      }
-
-      /*Css for the image in my navbar*/
-
-      ul li img {
-        background-color: #ffdd99;
-
-        vertical-align: middle;
-      }
-
-      /*Css for my flexbox container and how my page is formated*/
-
-      #Flexbox-and-how-it-will-look {
-        display: flex;
-
-        width: 100%;
-
-        gap: 20px;
-
-        padding: 20px;
-
-        box-sizing: border-box;
-      }
-
-      /*Css for my flexbox sidebar*/
-
-      .sidebars {
-        flex: 1;
-
-        background-color: #660000;
-
-        border: 2px solid #a64141;
-
-        padding: 20px;
-
-        color: #ffbbbb;
-
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-
-        border-radius: 10px;
-      }
-
-      /*Css for the middle/main area of my page*/
-
-      #main-area {
-        flex: 3;
-
-        background-color: #4b0000;
-
-        border: 2px solid #5a1a1a;
-
-        padding: 20px;
-
-        color: #ffcccc;
-
-        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-
-        border-radius: 9px;
-      }
-
-      /*css for my footer*/
-
-      #footer {
-        background-color: #800000;
-
-        margin: 5px;
-
-        padding: 30px;
-
-        border-radius: 10px;
-
-        text-align: center;
-      }
-
-      /*Css for the links in my left sidebar*/
-
+      /*styling/CSS to make the links of treaties in my first sidebar look good*/
       .linkstomakeitlookgood a {
-        color: #f67e7e;
-
+        color: #ffbbbb;
         text-decoration: none;
-
         list-style-type: none;
       }
 
+      /*styling/CSS to make the linnks hoverable*/
       .linkstomakeitlookgood :hover {
         color: #ffcccc;
       }
 
       /*Css to make numbered treaties bolder than without css*/
-
       span {
         font-weight: 900;
       }
 
       /* Css for the images in my main area to make them side by side*/
-
       .image-container {
         display: flex;
-
         gap: 20px;
-
         justify-content: center;
       }
     </style>
@@ -222,11 +62,12 @@ Date Last Modified: 20th Thu march 2025
             <li>
               <a tabindex="2" href="secondindex-black.html">Coming soon</a>
             </li>
-            <li><a tabindex="3" href="index.html">Coming soon</a></li>
             <li>
-              <a href="index-black.html"
-                ><button style="background-color: #fadda2" type="button">
-                  🌑 Switch to Dark Mode
+              <a href="index-white.html"
+                ><button
+                  style="color: white; background-color: #800000"
+                  type="button">
+                  🔆 Switch to Light Mode
                 </button></a
               >
             </li>
@@ -237,14 +78,14 @@ Date Last Modified: 20th Thu march 2025
 
     <main>
       <!--Title-->
-      <h1 class="title" tabindex="4">TREATY 1</h1>
+      <h1 tabindex="4">TREATY 1</h1>
 
       <!--html of flexbox container-->
       <div id="Flexbox-and-how-it-will-look">
         <!--Html of my left sidebar-->
         <div class="sidebars">
           <section>
-            <!--First title of left sidebar-->
+            <!--First title of left sidebar- background info on what a treaty is-->
             <h2 tabindex="5">What Is A Treaty?</h2>
 
             <p>
@@ -271,7 +112,7 @@ Date Last Modified: 20th Thu march 2025
 
             <br />
 
-            <!--Second title of left sidebar-->
+            <!--Second title of left sidebar- info on treaties in canada-->
             <h2 tabindex="8">Treaties In Canada?</h2>
 
             <p>Important treaties in canada include the</p>
@@ -338,7 +179,7 @@ Date Last Modified: 20th Thu march 2025
               <!--Title of main flexbox area-->
               <h2 style="text-align: center" tabindex="16">What is Treaty 1</h2>
 
-              <!--info of title-->
+              <!--info of treaty 1-->
               <p>
                 Treaty 1 or (stone fort treaty)-negotiated between Canadian
                 based first nations, the Crown, the Anishinaabe and Swampy Cree
@@ -346,7 +187,7 @@ Date Last Modified: 20th Thu march 2025
                 1921.
               </p>
 
-              <!--Images related to project-->
+              <!--images relating to treaty 1-->
               <div class="image-container">
                 <figure>
                   <img
@@ -390,7 +231,7 @@ Date Last Modified: 20th Thu march 2025
               <div class="image-container">
                 <figure>
                   <img
-                    src="images/treaty-1.jpg"
+                    src="images/image-removebg-preview.png"
                     tabindex="21"
                     alt="Example of a treaty, brownish torn, and ragedy kind of looking"
                     width="306"
@@ -400,8 +241,8 @@ Date Last Modified: 20th Thu march 2025
                     <a
                       tabindex="22"
                       target="_blank"
-                      href="https://hyperallergic.com/595770/374-native-american-treaties-have-been-digitized-and-made-available-online/"
-                      >Hyperallergic</a
+                      href="https://honourthetreaties.ca/home-two/learn-more/"
+                      >Honour the treaties</a
                     >
                   </figcaption>
                 </figure>
@@ -440,10 +281,8 @@ Date Last Modified: 20th Thu march 2025
         <!--Html of right sidebar-->
         <div class="sidebars">
           <section>
-            <!--first title-->
+            <!--first title of right sidebar- fun facts -->
             <h2 tabindex="26">Fun Facts About Treaty 1</h2>
-
-            <p></p>
             <ul>
               <b>
                 <li>Signed: August 3, 1871</li>
@@ -462,7 +301,7 @@ Date Last Modified: 20th Thu march 2025
             <br />
             <br />
 
-            <!--Second title-->
+            <!--Second title of right sidebar- quotes-->
             <h2 tabindex="28">Words from the Past</h2>
             <ul>
               <li>
@@ -475,7 +314,7 @@ Date Last Modified: 20th Thu march 2025
             <br />
             <br />
 
-            <!--third title-->
+            <!--third title of right sidebar- interactive map of treaty 1 signing area (IFRAME)-->
             <h2 tabindex="29">Treaty 1 signing Area</h2>
             <!--iframe of map of where treaty was signed-->
             <ul>
@@ -506,10 +345,11 @@ Date Last Modified: 20th Thu march 2025
       </div>
     </main>
 
-    <b>
+    <b
+      ><!--Footer-->
       <footer id="footer">
         &copy 2025 <br /><br />
-        Ibrahim Abdulsalaam- Web-project 1
+        Ibrahim Abdulsalaam- Web-project 2&3
         <!--figcaption for the logo because it looks better here-->
         <figcaption>
           Logo image courtesy of

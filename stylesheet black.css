@@ -1,0 +1,131 @@
+/*i chose a monochromatic color scheme*/
+
+/*External Css for dark mode*/
+
+/*styling/CSS for the body of my html(Dark Mode)*/
+body {
+  background-color: #330000;
+  color: #ffdddd;
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  line-height: 1.6;
+}
+
+/*styling/css for all my unordered lists including navbar and funfacts(Dark Mode) */
+Ul {
+  background-color: #800000;
+  color: #ffdddd;
+  margin: 1px;
+  padding: 14px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*styling/CSS so there isnt things like underline and bulletpoints for my lists unordered lists */
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+}
+
+/*styling/CSS including things for hiearchy and things that would affect how the words in my navbar would look  (Dark Mode)*/
+ul li a {
+  text-decoration: none;
+  padding: 45px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #fffefe;
+  font-family: Arial, sans-serif;
+}
+
+/*styling/CSS so i can hover over my navbar (Dark Mode)*/
+nav ul li :hover {
+  color: grey;
+}
+
+/*styling/CSS for the title of my pages  (Dark Mode)*/
+h1 {
+  color: #e4887c;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/*styling/CSS for the image/logo in my navbar (Dark Mode)*/
+ul li img {
+  background-color: #800000;
+  vertical-align: middle;
+}
+
+/*styling/CSS  for my flexbox container(entire flexbox) and how my page is formated */
+#Flexbox-and-how-it-will-look {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/*styling/CSS for my flexbox sidebar and how my page is formated (Dark Mode)*/
+.sidebars {
+  flex: 1;
+  background-color: #660000;
+  border: 2px solid #a64141;
+  padding: 20px;
+  color: #ffbbbb;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 19;
+}
+
+/*styling/CSS for my flexbox and how my page is formated middle/main area (Dark Mode)*/
+#main-area {
+  flex: 3;
+  background-color: #4b0000;
+  border: 2px solid #5a1a1a;
+  padding: 20px;
+  color: #ffcccc;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
+  font-size: 19px;
+}
+
+/*styling/CSS for the footer of my pages (Dark Mode)*/
+#footer {
+  background-color: #800000;
+  margin: 5px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*styling/CSS for my navbar to make it fixed and things to make fixed look good */
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+/*styling/CSS for all the subheadings i used for my pages */
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 38px;
+}
+
+/*styling/CSS for the base size of my font sizes */
+html {
+  font-size: 19px;
+}
+
+/*styling/CSS for the paragraphs in my body*/
+p {
+  font-size: 19px;
+}
