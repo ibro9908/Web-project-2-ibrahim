@@ -1,4 +1,9 @@
-/*i chose a monochromatic color scheme*/
+/*i chose a monochromatic color scheme like yellow or beige, except for the text of cource which are neutral.
+I chose the yellowish and beige tones because for a lot people treaty 1 can be seen as a bad thing for the first 
+nation peoples so i tried to make my website s comfortable fll comfortable to ease people into it. I also used 
+those because when I used the white it makes m project pop out withouth it looking unproffesional with the colors
+i already had. Combined i chose the yelllow/beige for backgrounds and brown for text for accesibility because its
+really easy for most people to read that on that. */
 
 /*External Css for light mode*/
 
@@ -43,7 +48,7 @@ ul li a {
 
 /*styling/CSS so i can hover over my navbar (Light Mode)*/
 nav ul li :hover {
-  color: grey;
+  color: #4a4a4a;
 }
 
 /*styling/CSS for the title of my pages  (Light Mode)*/
@@ -79,7 +84,6 @@ ul li img {
   border: 2px solid #ffdd99;
   padding: 20px;
   color: #5a3d2b;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   font-size: 19px;
 }
@@ -112,7 +116,8 @@ nav {
   top: 0;
 }
 
-/*styling/CSS for all the subheadings i used for my pages */
+/*styling/CSS for all the subheadings i used for my pages. I gave it serif because its older, more traditional and serious
+so a good fit for the subheaders */
 h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;

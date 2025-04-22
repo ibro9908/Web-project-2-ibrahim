@@ -1,4 +1,7 @@
-/*i chose a monochromatic color scheme*/
+/*i chose a monochromatic color scheme red tints and shades, except for the whitish and pinkish text to make it pop.
+I chose the reds because its often seeen in indigenous flags and art and symbolized strength and resinliense for the
+indigenous people  plus i used the darker shades or red can give seriousness and respect. the white  and lightish red 
+or pink is easy to read on way darker red for everyone. */
 
 /*External Css for dark mode*/
 
@@ -43,7 +46,7 @@ ul li a {
 
 /*styling/CSS so i can hover over my navbar (Dark Mode)*/
 nav ul li :hover {
-  color: #4a4a4a;
+  color: #ffdddd;
 }
 
 /*styling/CSS for the title of my pages  (Dark Mode)*/
@@ -79,7 +82,6 @@ ul li img {
   border: 2px solid #800000;
   padding: 20px;
   color: #ffbbbb;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   font-size: 19;
 }
@@ -90,7 +92,7 @@ ul li img {
   background-color: #660000;
   border: 2px solid #800000;
   padding: 20px;
-  color: #ffcccc;
+  color: #ffbbbb;
   border-radius: 9px;
   font-size: 19px;
 }
@@ -112,7 +114,8 @@ nav {
   top: 0;
 }
 
-/*styling/CSS for all the subheadings i used for my pages */
+/*styling/CSS for all the subheadings i used for my pages. I gave it serif because its older, more traditional and serious
+so a good fit for the subheaders */
 h2 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
